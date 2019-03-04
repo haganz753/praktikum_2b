@@ -1,2 +1,141 @@
-\section{Perintah Navigasi}
-Perintah navigasi direktori
+\section{IrvanRizkiansyah/1174043}
+	\subsection{Teori}
+		\begin{enumerate}
+			\item Pada python variabel tidak perlu dideklarasikan, pendeklarasian terjadi secara otomatis pada saat memberikan suatu nilai atau data ke variabel. Terdapat beberapa jenis tipe data variabel pada python, diantaranya :
+				\begin{itemize}
+					\item Python Numbers, dimana akan menyimpan data yang berupa angka. Penggunaan pada python sebagai berikut : 
+					var1 = 5
+					var2 = 48.9
+					
+					\item Python Text, dimana akan menyimpan data yang berupa teks ataupun karakter. Penggunaan pada python harus diapitkan oleh tanda petik ("..."), contohnya :
+					nama = "Irvan"
+					jns_kelamin = "L"
+					
+					\item Python Boolean, dimana yang hanya memiliki 2 nilai yaitu True dan False saja. penggunaan pada python huruf pertama harus kapital, contohnya :
+					var3 = True
+					var4 = False
+				\end{itemize}
+
+			\item \begin{itemize}
+					\item Meminta input pada user
+					nama = input("Masukkan Nama Anda : ")
+					
+					\item menampilkan output
+					print "Hello Nama Saya Adalah",nama
+				\end{itemize}
+
+			\item \begin{itemize}
+					\item Operator tambah
+					a = b + c
+					
+					\item Operator kurang
+					a = b - c
+					
+					\item Operator kali
+					a = b * c
+					
+					\item Operator bagi
+					a = b / c
+					
+					\item Konversi integer ke string
+					konv_var = str(var1)
+					
+					\item Konversi string ke integer
+					konv_var = int(var2)
+				\end{itemize}
+
+			\item \begin{itemize}
+				\item Pengulangan for, kemampuan mengulang proses data menggunakan urutan apapun, seperti list.
+				contoh penggunaan pada Python dan contoh kode adalah :
+
+					\begin{verbatim}
+					for i in range(10):
+						print(i)
+					\end{verbatim}
+					
+				\item Pengulangan while, kemampuan mengulang proses data yang akan terus berlanjut jika kondisinya True.
+				contoh penggunaan pada Python dan contoh kode adalah :
+					\begin{verbatim}
+					i= 0
+					while i < 10 :
+						i=i+1
+						print ("loop ke =", i)
+					\end{verbatim}
+				\end{itemize}
+				
+			\item Pengambilan keputusan berguna untuk menentukan tindakan apa yang akan diambil sesuai dengan kondisi yang ada. Contohnya :
+				\begin{verbatim}
+				nilai = 9
+				if(nilai > 7):
+					print("Selamat Anda Lulus")
+				else:
+					print("Maaf Anda Tidak Lulus")
+				\end{verbatim}
+				
+				Dan untuk kondisi di dalam kondisi contohnya :
+				
+				\begin{verbatim}
+				gaji = 10000000
+				berkeluarga = True
+				if gaji > 3000000:
+					print "Gaji sudah diatas UMR"
+					if berkeluarga:
+							print "Wajib ikutan asuransi dan menabung untuk pensiun"
+						else:
+							print "Tidak perlu ikutan asuransi"
+				else:
+					print "Gaji belum UMR"
+				\end{verbatim}
+
+			\item \begin{itemize}
+					\item Syntax Errors, Salahnya dalam penulisan sintaks.
+					cara penanganannya adalah dengan menganalisa bagian kode yang error dan memperbaiki sintaks tersebut.
+					
+					\item Exceptions, error yang terjadi karena sintaks tidak dapat dieksekusi.
+					cara penanganannya adalah dengan menganalisa bagian kode yang error dan memperbaiki sintaks tersebut.
+				\end{itemize}
+			
+			\item Try Except adalah cara penanganan error pada Python.
+			Contohnya : 
+				\begin{verbatim}
+				x = 0
+				try:
+					x = 1 / 0
+				except Exception, e:
+					print e
+				\end{verbatim}
+
+		\end{enumerate}
+		
+	\subsection{Keterampilan Pemrograman}
+		\begin{enumerate}
+			\item \lstinputlisting{src/chapter2/1174043_1.py}
+
+			\item \lstinputlisting{src/chapter2/1174043_2.py}
+
+			\item \lstinputlisting{src/chapter2/1174043_3.py}
+
+			\item \lstinputlisting{src/chapter2/1174043_4.py}
+
+			\item \lstinputlisting{src/chapter2/1174043_5.py}
+
+			\item \lstinputlisting{src/chapter2/1174043_6.py}
+
+			\item \lstinputlisting{src/chapter2/1174043_7.py}
+
+			\item \lstinputlisting{src/chapter2/1174043_8.py}
+
+			\item \lstinputlisting{src/chapter2/1174043_9.py}
+
+			\item \lstinputlisting{src/chapter2/1174043_10.py}
+			
+			\item \lstinputlisting{src/chapter2/1174043_11.py}
+		\end{enumerate}
+		
+	\subsection{Keterampilan Penanganan Error}
+		\begin{enumerate}
+			\item TypeError yaitu error di dalam tipe data disaat melakukan substring dan ingin memasukkannya ke dalam kondisi for 
+			yang hanya menerima tipe int. jadi harus merubah tipe inputan yaitu string menjadi integer.
+
+			\item \lstinputlisting{src/chapter2/1174043_2err.py}
+		\end{enumerate}
