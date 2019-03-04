@@ -148,3 +148,96 @@ Cara pemakaian try except adalah sebagai berikut :
 
 \subsection{Keterampilan dan penanganan eror}
     \lstinputlisting[firstline=10, lastline=17]{src/errr2.py}
+
+
+\section{Luthfi M. Nabil/1174035}
+\subsection{Teori}
+\begin{enumerate}
+	\item Berikut merupakan jenis - jenis variabel yang terdapat pada python : \begin{itemize}	
+	\item Jenis variabel Teks (String) : Merupakan jenis variabel untuk menampung karakter. Cara penulisannya harus diapit dengan tanda petik 1 atau 2 ('..'), ("..")
+
+   \item Jenis variabel numeric(Integer, Float) : Jenis variabel ini menampung nilai berupa angka diantaranya bilangan bulat (integer) dan bilangan koma (float)  Penulisannya yaitu dengan menginisialisasikan nama
+   variable lalu masukkan angka (x = 30, x=3.3)
+
+   \item Jenis variabel pengkondisian : tipe yang memiliki dua nilai yaitu true dan false. penggunaannya huruf pertamanya harus kapital True dan False.
+   \end{itemize}
+   \item input().inisialisasikan input tersebut x = input() lalu print(x)
+
+   \item Operator dasar aritmatika dan mengubah string ke integer dan integer ke string : 
+\begin{itemize}
+\item Jenis - jenis operator aritmatika : Penjumlahan (+),Perkalian (*), Pengurangan(-),Pembagian(/).
+\item Convert int to string dan sebaliknya : misal a = '10' maka integer = int(a) dan misal a= 10 maka string = string(a)
+\end{itemize}
+
+   \item While : untuk perulangan yang memiliki kondisi lebih bebas/tidak terpaku
+
+   \begin{verbatim}
+
+     	i = 20
+	while True:
+        		print "Saat ini i bernilai: ", i
+        		i = i - 1
+   
+   for : untuk perulangan yang pasti
+	for i in range(0, 10):
+    		print i
+    \end{verbatim}
+    \item 
+    \begin{verbatim}
+    if kondisi:
+	hasil
+   dan
+   if kondisi:
+	hasil
+	if kondisi:
+	    hasil
+	\end{verbatim}
+	\item type error = ubah tipe str jadi int, index error = array index tidak diketahui
+
+	\item taruh try : diatas sintaks yang ingin diketahui jika terjadi error lalu enter dan tulis except: lalu tekan enter 
+dan masukkan tulisaan yang akan ditampilkan.
+	\begin{verbatim}
+	a = 2
+	b = 'Coba Coba'
+	try:
+    	print(a + b)
+	except TypeError:
+    	print("Integer dan String Tidak Dapat
+    	 Dijumlah Karena Berbeda Tipe")
+	\end{verbatim}
+
+\end{enumerate}
+\subsection{Keterampilan Pemrograman}
+\begin{enumerate}
+	\item \lstinputlisting{src/chapter2/1174035_1.py}
+
+	\item \lstinputlisting{src/chapter2/1174035_2.py}
+
+	\item \lstinputlisting{src/chapter2/1174035_3.py}
+
+	\item \lstinputlisting{src/chapter2/1174035_4.py}
+
+	\item \lstinputlisting{src/chapter2/1174035_5.py}
+
+	\item \lstinputlisting{src/chapter2/1174035_6.py}
+
+	\item \lstinputlisting{src/chapter2/1174035_7.py}
+
+	\item \lstinputlisting{src/chapter2/1174035_8.py}
+
+	\item \lstinputlisting{src/chapter2/1174035_9.py}
+
+	\item \lstinputlisting{src/chapter2/1174035_10.py}
+	
+	\item \lstinputlisting{src/chapter2/1174035_11.py}
+\end{enumerate}
+\subsection{Keterampilan Penanganan Error}
+\begin{enumerate}
+	\item \begin{itemize} 
+		\item TypeError yaitu error di dalam variabel disaat melakukan substring dan ingin memasukkannya ke dalam kondisi for 
+	yang hanya menerima tipe int. jadi harus merubah tipe inputan yaitu string menjadi integer.
+		\item IndexError yaitu error saat array dengan index yang telah dipilih tidak ditemukan atau tidak memiliki nilai
+		\end{itemize}
+
+	\item \lstinputlisting{src/chapter2/1174035_2err.py}
+\end{enumerate}
