@@ -656,5 +656,192 @@ Cara pemakaian try except adalah sebagai berikut :
 	\lstinputlisting{src/chapter2/1164074/1164074_2err.py}
 	\end{enumerate}
 
+\section{Yusniar Nur Syarif Sidiq/1164089}
+\subsection{Teori}
+
+\begin{enumerate}
+
+\item Python memiliki dua Vaiabel yaitu integer dan string
+\begin{itemize}
+	\item Contoh Variabel String
+\end{itemize}
+	\begin{verbatim}
+		x="YusniarNS"
+		y="D4 Teknik Informatika"
+		z=x + y
+		print(z)
+	\end{verbatim}
+	\subitem Output dari source code tersebut adalah YusniarNS D4 Teknik Informatika
+	\item Contoh Variabel Integer
+	\begin{verbatim}
+		x=5
+		y=10
+		print(x+y)
+	\end{verbatim}
+	\subitem Output dari source code tersebut adalah 15
+
+\par
+\item Cara melakukan proses input
+	\begin{verbatim}
+		print("Enter your name:")
+		x= input()
+		print("Hello, "+x)
+	\end{verbatim}
+\subitem Dimana ketika kita running akan meminta form inputan dan apabila saya berikan inputan YusniarNS maka output yang keluar adalah Hello YusniarNS di karenakan variabel x adalah inputan yang kita berikan.
+\par
+ \begin{itemize}
+	\item Aritmatika Pertambahan
+\end{itemize}
+		\begin{verbatim}
+			x=5
+			y=3
+			print(x+y)
+		\end{verbatim}
+	\subitem Ouput yang keluar dari source code tersebut adalah 8 di karenakan 5 ditambah 3 sama dengan 8.
+	
+	\item Aritmatika Pengurangan
+		\begin{verbatim}
+			x=5
+			y=3
+			print(x-y)
+		\end{verbatim}
+	\subitem Output yang keluar dari source code tersebut adalah 2.
+
+	\item Aritmatika Pengurangan
+		\begin{verbatim}
+			x=5
+			y=3
+			print(x*y)
+		\end{verbatim}
+	\subitem Output yang keluar dari source code tersebut adalah 15.
+
+	\item Aritmatika Pembagian
+		\begin{verbatim}
+			x=5
+			y=3
+			print(x/y)
+		\end{verbatim}
+	\subitem Output yang keluar dari source code tersebut adalah 1,67.
+
+	\item Merubah Integer Ke String
+		\begin{verbatim}
+			x=5
+			y=3
+			z=str(x)+str(y)
+		\end{verbatim}
+
+	\item Merubah String Ke Integer
+		\begin{verbatim}
+			x='5'
+			y='3'
+			z=int(x)+int(y)
+		\end{verbatim}
+\par
+\item Python memiliki dua type pengulangan yaitu While Looping dan For Looping
+
+\begin{itemize}
+	\item Contoh While Looping
+\end{itemize}
+		\begin{verbatim}
+			i = 1
+			while i < 6:
+		  	print(i)
+ 			 i += 1
+		\end{verbatim}
+	\subitem Output yang akan keluar adalah memunculkan angka 1 samapi 5 dikarenakan adanya source code
+		\begin{verbatim}
+			while i<6
+		\end{verbatim}
+	
+	\item Contoh For Looping
+		\begin{verbatim}
+			for x in "banana":
+			print(x)
+		\end{verbatim}
+	\subitem Output yang keluar adalah mengulang huruf b a n a n a secara vertikal.
+\par
+\item Contoh source code condition adalah seperti berikut
+	\begin{verbatim}
+		a = 33
+		b = 33
+		if b > a:
+  		print("b is greater than a")
+		elif a == b:
+  		print("a and b are equal")
+	\end{verbatim}
+\subitem Output dari source code tersebut adalah a and b are equal di karenakan nilai vaiabel a dan b sama.
+
+\par
+\item Jenis Erorr yang ditemukan
+\subitem dalam kasus ini erorr yang saya temukan adalah source code pada nomor aritmatika pembagian.
+	\begin{verbatim}
+		x=5
+		y='3'
+		print(x/y)
+	\end{verbatim}
+\subitem pada source code tersebut akan terjadi erorr dikarenakan integer dan string tidak dapat di persatukan. Untu penyelesaiannya adalah sebagai berikut.
+	\begin{verbatim}
+		x=5
+		y=3
+		print(x/y)
+	\end{verbatim}
+\par
+	\begin{verbatim}
+		x = 3
+		try:
+		print(x)
+		except NameError:
+		print("Variable x is not defined")
+		except:
+		print("Something else went wrong")
+	\end{verbatim}
+\subitem Output yang dikeluarkan adalah 3 dikarenakan variabel dari x bernilai 3.
+\end{enumerate}
+
+\section{Keterampilan Pemrograman}
+\begin{enumerate}
+	\item \lstinputlisting{src/chapter2/1164089_YN11.py}
+
+	\item \lstinputlisting{src/chapter2/1164089_YN12.py}
+
+	\item \lstinputlisting{src/chapter2/1164089_YN13.py}
+
+	\item \lstinputlisting{src/chapter2/1164089_YN14.py}
+
+	\item \lstinputlisting{src/chapter2/1164089_YN15.py}
+
+	\item \lstinputlisting{src/chapter2/1164089_YN16.py}
+
+	\item \lstinputlisting{src/chapter2/1164089_YN17.py}
+
+	\item \lstinputlisting{src/chapter2/1164089_YN18.py}
+
+	\item \lstinputlisting{src/chapter2/1164089_YN19.py}
+
+	\item \lstinputlisting{src/chapter2/1164089_YN20.py}
+	
+	\item \lstinputlisting{src/chapter2/1164089_YN21.py}
+\end{enumerate}
+
+\subsection{Keterampilan Penanganan Error}
+\begin{enumerate}
+	\item Dimana error yang saya akan menjadi kan contoh error yang saya dapat pada nomor 5. Dalam no 5 terdapat 7 variabel dan akan di tampilkan output berupa string. Pada awalnya saya membuat source code seperti berikut
+	
+	\begin{verbatim}
+	Print(a,b,c,d,e,f,g)
+	\end{verbatim}
+
+	Sehingga output yang dikeluarkan adalah 1 1 6 4 0 8 9 dan masih berupa integer. Untuk menampilkan output String maka source code yang di berikan adalah sebagai berikut 
+	
+	\begin{verbatim}
+	print(str(a)+str(b)+str(c)+str(d)+str(e)+str(f)+str(g))
+	\end{verbatim}
+
+	Output yang di keluarkan nantinya adalah 1164089 dengan type data String
+
+
+	\item \lstinputlisting{src/chapter2/1164089_YN2err.py}
+\end{enumerate}
+
 
 	
