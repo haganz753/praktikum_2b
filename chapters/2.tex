@@ -574,3 +574,190 @@ Cara pemakaian try except adalah sebagai berikut :
 
 \subsection{Keterampilan dan penanganan eror}
     \lstinputlisting[firstline=10, lastline=17]{src/chapter2/errorrr.py}
+
+\section{Mhd Zulfikar Akram Nasution/ 1164081}
+\subsection{Teori}
+
+\begin{enumerate}
+
+\item Python memiliki dua Vaiabel yaitu integer dan string
+	\begin{itemize}
+	\item Contoh Variabel String
+	\end{itemize}
+	\begin{verbatim}
+		x="Zulfikar"
+		y="D4 Teknik Informatika"
+		z=x + y
+		print(z)
+	\end{verbatim}
+	\subitem Output dari source code tersebut adalah Zulfikar D4 Teknik Informatika
+	\begin{itemize}	
+	\item Contoh Variabel Integer
+	\end{itemize}	
+	\begin{verbatim}
+		x=5
+		y=10
+		print(x+y)
+	\end{verbatim}
+	\subitem Output dari source code tersebut adalah 15
+
+\par
+\item Cara melakukan proses input
+	\begin{verbatim}
+		print("Enter your name:")
+		x= input()
+		print("Hello, "+x)
+	\end{verbatim}
+\subitem Dimana ketika kita running akan meminta form inputan dan apabila saya berikan inputan Zulfikar maka output yang keluar adalah Hello Zulfikar di karenakan variabel x adalah inputan yang kita berikan.
+\par
+\item Operator dasar aritmatika
+ 	\begin{itemize}
+	\item Aritmatika Pertambahan
+	\end{itemize}
+		\begin{verbatim}
+			x=5
+			y=3
+			print(x+y)
+		\end{verbatim}
+	\subitem Ouput yang keluar dari source code tersebut adalah 8 di karenakan 5 ditambah 3 sama dengan 8.
+	\begin{itemize}
+	\item Aritmatika Pengurangan
+	\end{itemize}	
+		\begin{verbatim}
+			x=5
+			y=3
+			print(x-y)
+		\end{verbatim}
+	\subitem Output yang keluar dari source code tersebut adalah 2.
+	\begin{itemize}
+	\item Aritmatika Perkalian
+	\end{itemize}
+		\begin{verbatim}
+			x=5
+			y=3
+			print(x*y)
+		\end{verbatim}
+	\subitem Output yang keluar dari source code tersebut adalah 15.
+	\begin{itemize}
+	\item Aritmatika Pembagian
+	\end{itemize}
+		\begin{verbatim}
+			x=5
+			y=3
+			print(x/y)
+		\end{verbatim}
+	\subitem Output yang keluar dari source code tersebut adalah 1,67.
+	\begin{itemize}
+	\item Merubah Integer Ke String
+	\end{itemize}
+		\begin{verbatim}
+			x=5
+			y=3
+			z=str(x)+str(y)
+		\end{verbatim}
+	\begin{itemize}
+	\item Merubah String Ke Integer
+	\end{itemize}
+		\begin{verbatim}
+			x='5'
+			y='3'
+			z=int(x)+int(y)
+		\end{verbatim}
+\par
+\item Python memiliki dua type pengulangan yaitu While Looping dan For Looping
+
+	\begin{itemize}
+	\item Contoh While Looping
+	\end{itemize}
+		\begin{verbatim}
+			i = 1
+			while i < 6:
+		  	print(i)
+ 			 i += 1
+		\end{verbatim}
+	\subitem Output yang akan keluar adalah memunculkan angka 1 samapi 5 dikarenakan adanya source code
+		\begin{verbatim}
+			while i<6
+		\end{verbatim}
+	\begin{itemize}
+	\item Contoh For Looping
+	\end{itemize}
+		\begin{verbatim}
+			for x in "banana":
+			print(x)
+		\end{verbatim}
+	\subitem Output yang keluar adalah mengulang huruf b a n a n a secara vertikal.
+\par
+\item Contoh source code condition adalah seperti berikut
+	\begin{verbatim}
+		a = 33
+		b = 33
+		if b > a:
+  		print("b is greater than a")
+		elif a == b:
+  		print("a and b are equal")
+	\end{verbatim}
+\subitem Output dari source code tersebut adalah a and b are equal di karenakan nilai vaiabel a dan b sama.
+
+\par
+\item Jenis Erorr yang ditemukan
+\subitem dalam kasus ini erorr yang saya temukan adalah source code pada nomor aritmatika pembagian.
+	\begin{verbatim}
+		x=5
+		y='3'
+		print(x/y)
+	\end{verbatim}
+\subitem pada source code tersebut akan terjadi erorr dikarenakan integer dan string tidak dapat di persatukan. Untu penyelesaiannya adalah sebagai berikut.
+	\begin{verbatim}
+		x=5
+		y=3
+		print(x/y)
+	\end{verbatim}
+\par
+\item Try except
+	\begin{verbatim}
+		x = 3
+		try:
+		print(x)
+		except NameError:
+		print("Variable x is not defined")
+		except:
+		print("Something else went wrong")
+	\end{verbatim}
+\subitem Output yang dikeluarkan adalah 3 dikarenakan variabel dari x bernilai 3.
+\end{enumerate}
+
+\subsection{Keterampilan Pemrograman}
+\begin{enumerate}
+	\item \lstinputlisting{src/chapter2/1164081_1.py}
+
+	\item \lstinputlisting{src/chapter2/1164081_2.py}
+
+	\item \lstinputlisting{src/chapter2/1164081_3.py}
+
+	\item \lstinputlisting{src/chapter2/1164081_4.py}
+
+	\item \lstinputlisting{src/chapter2/1164081_5.py}
+
+	\item \lstinputlisting{src/chapter2/1164081_6.py}
+
+	\item \lstinputlisting{src/chapter2/1164081_7.py}
+
+	\item \lstinputlisting{src/chapter2/1164081_8.py}
+
+	\item \lstinputlisting{src/chapter2/1164081_9.py}
+
+	\item \lstinputlisting{src/chapter2/1164081_10.py}
+	
+	\item \lstinputlisting{src/chapter2/1164081_11.py}
+\end{enumerate}
+\subsection{Keterampilan Penanganan Error}
+\begin{enumerate}
+	\item Contoh error yang saya dapat berada pada nomor 5. Dalam no 5 terdapat 7 variabel dan akan di tampilkan output berupa string. Pada awalnya saya membuat source code seperti berikut:
+Print(a,b,c,d,e,f,g)
+Sehingga output yang dikeluarkan adalah 1 1 6 4 0 8 1 dan masih berupa integer. Untuk menampilkan output String maka tambahkan source code str seperti contoh berikut :
+print(str(a)+str(b)+str(c)+str(d)+str(e)+str(f)+str(g))
+Output yang di keluarkan nantinya adalah 1164081 dengan type data String
+\par
+	\item \lstinputlisting{src/chapter2/1164081_2err.py}
+\end{enumerate}
