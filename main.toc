@@ -1,13 +1,13 @@
 \contentsline {schapter}{Daftar Gambar}{xiii}% 
 \contentsline {schapter}{Daftar Tabel}{xv}% 
-\contentsline {schapter}{Foreword}{xix}% 
-\contentsline {schapter}{Kata Pengantar}{xxi}% 
-\contentsline {schapter}{Acknowledgments}{xxiii}% 
-\contentsline {schapter}{Acronyms}{xxv}% 
-\contentsline {schapter}{Glossary}{xxvii}% 
-\contentsline {schapter}{List of Symbols}{xxix}% 
-\contentsline {schapter}{Introduction}{xxxi}% 
-\contentsline {ichapter}{Rolly Maulana Awangga, S.T., M.T.}{xxxi}% 
+\contentsline {schapter}{Foreword}{xxiii}% 
+\contentsline {schapter}{Kata Pengantar}{xxv}% 
+\contentsline {schapter}{Acknowledgments}{xxvii}% 
+\contentsline {schapter}{Acronyms}{xxix}% 
+\contentsline {schapter}{Glossary}{xxxi}% 
+\contentsline {schapter}{List of Symbols}{xxxiii}% 
+\contentsline {schapter}{Introduction}{xxxv}% 
+\contentsline {ichapter}{Rolly Maulana Awangga, S.T., M.T.}{xxxv}% 
 \contentsline {chapter}{\numberline {1}Judul Bagian Pertama}{1}% 
 \contentsline {section}{\numberline {1.1}Irvan Rizkiansyah}{1}% 
 \contentsline {section}{\numberline {1.2}Python}{1}% 
@@ -31,47 +31,52 @@
 \contentsline {subsubsection}{\numberline {1.4.3.1}Objective}{4}% 
 \contentsline {subsubsection}{\numberline {1.4.3.2}Contribution}{4}% 
 \contentsline {subsection}{\numberline {1.4.4}Scoop and Environment}{5}% 
-\contentsline {section}{\numberline {1.5}Faisal Najib Abdullah 1174042}{5}% 
+\contentsline {section}{\numberline {1.5}Rangga Putra Ramdhani\_1174056}{5}% 
 \contentsline {subsection}{\numberline {1.5.1}Background}{5}% 
 \contentsline {subsection}{\numberline {1.5.2}Problems}{5}% 
 \contentsline {subsection}{\numberline {1.5.3}Objective and Contribution}{5}% 
 \contentsline {subsubsection}{\numberline {1.5.3.1}Objective}{5}% 
 \contentsline {subsubsection}{\numberline {1.5.3.2}Contribution}{6}% 
-\contentsline {subsection}{\numberline {1.5.4}Scoop and Environtment}{6}% 
-\contentsline {section}{\numberline {1.6}Ichsan Hizman Hardy/1174034}{6}% 
-\contentsline {subsection}{\numberline {1.6.1}Background}{6}% 
-\contentsline {subsection}{\numberline {1.6.2}Problems}{6}% 
-\contentsline {subsection}{\numberline {1.6.3}Objective and Contribution}{7}% 
-\contentsline {subsubsection}{\numberline {1.6.3.1}Objective}{7}% 
-\contentsline {subsubsection}{\numberline {1.6.3.2}Contribution}{7}% 
-\contentsline {subsection}{\numberline {1.6.4}Scope and Environtment}{7}% 
-\contentsline {section}{\numberline {1.7}Kevin Natanael Nainggolan 1174059}{7}% 
-\contentsline {subsection}{\numberline {1.7.1}Background}{7}% 
-\contentsline {subsection}{\numberline {1.7.2}Problems}{8}% 
-\contentsline {subsection}{\numberline {1.7.3}Objective and Contribution}{8}% 
-\contentsline {subsubsection}{\numberline {1.7.3.1}Objective}{8}% 
-\contentsline {subsubsection}{\numberline {1.7.3.2}Contribution}{8}% 
-\contentsline {subsection}{\numberline {1.7.4}Scope and Environtment}{8}% 
-\contentsline {section}{\numberline {1.8}DikaSukmaPradana\_1174050}{8}% 
-\contentsline {subsection}{\numberline {1.8.1}Background Python}{8}% 
-\contentsline {subsection}{\numberline {1.8.2}Problems}{9}% 
-\contentsline {section}{\numberline {1.9}Muhammad Iqbal Panggabean/1174063}{9}% 
-\contentsline {subsection}{\numberline {1.9.1}Background}{9}% 
-\contentsline {subsection}{\numberline {1.9.2}Problems}{10}% 
-\contentsline {subsection}{\numberline {1.9.3}Objective and Contribution}{10}% 
-\contentsline {subsubsection}{\numberline {1.9.3.1}Objective}{10}% 
-\contentsline {subsubsection}{\numberline {1.9.3.2}Contribution}{10}% 
-\contentsline {subsection}{\numberline {1.9.4}Scope and Environtment}{11}% 
-\contentsline {chapter}{\numberline {2}Judul Bagian Kedua}{13}% 
-\contentsline {section}{\numberline {2.1}Hagan Rowlenstino/1174040}{13}% 
-\contentsline {subsection}{\numberline {2.1.1}Teori}{13}% 
-\contentsline {subsection}{\numberline {2.1.2}Keterampilan Pemrograman}{14}% 
-\contentsline {subsection}{\numberline {2.1.3}Keterampilan Penanganan Error}{17}% 
-\contentsline {section}{\numberline {2.2}Muhammad Iqbal Panggabean}{18}% 
-\contentsline {subsection}{\numberline {2.2.1}Teori}{18}% 
-\contentsline {subsection}{\numberline {2.2.2}praktek}{20}% 
-\contentsline {subsection}{\numberline {2.2.3}Keterampilan dan penanganan eror}{21}% 
-\contentsline {section}{\numberline {2.3}Faisal Najib Abdullah 1174042}{21}% 
-\contentsline {subsection}{\numberline {2.3.1}Teori}{21}% 
-\contentsline {subsection}{\numberline {2.3.2}Keterampilan Pemrograman}{23}% 
-\contentsline {subsection}{\numberline {2.3.3}Keterampilan Penanganan Error}{26}% 
+\contentsline {subsection}{\numberline {1.5.4}Scope and Environtment}{6}% 
+\contentsline {chapter}{\numberline {2}Judul Bagian Kedua}{7}% 
+\contentsline {section}{\numberline {2.1}Alit Fajar Kurniawan 1174057}{7}% 
+\contentsline {subsection}{\numberline {2.1.1}Teori}{7}% 
+\contentsline {subsection}{\numberline {2.1.2}praktek}{8}% 
+\contentsline {subsection}{\numberline {2.1.3}Keterampilan dan penanganan eror}{8}% 
+\contentsline {section}{\numberline {2.2}IrvanRizkiansyah/1174043}{8}% 
+\contentsline {subsection}{\numberline {2.2.1}Teori}{8}% 
+\contentsline {subsection}{\numberline {2.2.2}Keterampilan Pemrograman}{10}% 
+\contentsline {subsection}{\numberline {2.2.3}Keterampilan Penanganan Error}{13}% 
+\contentsline {section}{\numberline {2.3}Hagan Rowlenstino/1174040}{13}% 
+\contentsline {subsection}{\numberline {2.3.1}Teori}{13}% 
+\contentsline {subsection}{\numberline {2.3.2}Keterampilan Pemrograman}{15}% 
+\contentsline {subsection}{\numberline {2.3.3}Keterampilan Penanganan Error}{18}% 
+\contentsline {section}{\numberline {2.4}Muhammad Iqbal Panggabean}{18}% 
+\contentsline {subsection}{\numberline {2.4.1}Teori}{18}% 
+\contentsline {subsection}{\numberline {2.4.2}praktek}{20}% 
+\contentsline {subsection}{\numberline {2.4.3}Keterampilan dan penanganan eror}{22}% 
+\contentsline {section}{\numberline {2.5}Luthfi M. Nabil/1174035}{22}% 
+\contentsline {subsection}{\numberline {2.5.1}Teori}{22}% 
+\contentsline {subsection}{\numberline {2.5.2}Keterampilan Pemrograman}{23}% 
+\contentsline {subsection}{\numberline {2.5.3}Keterampilan Penanganan Error}{28}% 
+\contentsline {section}{\numberline {2.6}Faisal Najib Abdullah 1174042}{29}% 
+\contentsline {subsection}{\numberline {2.6.1}Teori}{29}% 
+\contentsline {subsection}{\numberline {2.6.2}Keterampilan Pemrograman}{30}% 
+\contentsline {subsection}{\numberline {2.6.3}Keterampilan Penanganan Error}{33}% 
+\contentsline {section}{\numberline {2.7}Dika Sukma Pradana 1174050}{34}% 
+\contentsline {subsection}{\numberline {2.7.1}Teori}{34}% 
+\contentsline {subsection}{\numberline {2.7.2}Praktek}{36}% 
+\contentsline {subsection}{\numberline {2.7.3}Keterampilan dan Penanganan Eror}{37}% 
+\contentsline {section}{\numberline {2.8}Ichsan Hizman Hardy}{38}% 
+\contentsline {subsection}{\numberline {2.8.1}Teori}{38}% 
+\contentsline {subsection}{\numberline {2.8.2}praktek}{38}% 
+\contentsline {subsection}{\numberline {2.8.3}Keterampilan dan penanganan eror}{39}% 
+\contentsline {chapter}{\numberline {3}Judul Bagian Ketiga}{41}% 
+\contentsline {section}{\numberline {3.1}Rangga Putra Ramdhani}{41}% 
+\contentsline {subsubsection}{\numberline {3.1.0.1}Pemahanan Teori}{41}% 
+\contentsline {subsubsection}{\numberline {3.1.0.2}Ketrampilan Pemrograman}{43}% 
+\contentsline {subsubsection}{\numberline {3.1.0.3}Ketrampilan Penanganan Error}{47}% 
+\contentsline {section}{\numberline {3.2}Faisal Najib Abdullah}{47}% 
+\contentsline {subsection}{\numberline {3.2.1}Pemahanan Teori}{47}% 
+\contentsline {subsection}{\numberline {3.2.2}Ketrampilan Pemrograman}{49}% 
+\contentsline {subsection}{\numberline {3.2.3}Ketrampilan Penanganan Error}{53}% 
