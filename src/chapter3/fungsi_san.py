@@ -66,7 +66,7 @@ def penulisan(npm):
 def perulangan(npm):
     hitung = 0
     while(hitung < 51):
-        print("Halo, "+str(npm)+" apa kabar?")
+        print("Halo, "+str(npm)+" apaa kabar?")
         hitung = hitung +1
 
 #No 3
