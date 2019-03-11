@@ -109,7 +109,7 @@ def genap():
     npm = [1,1,7,4,0,3,4]
     for i in npm:
         if (i % 2) == 0:
-            print("Bilangan Genapnya : "+str(i))
+            print("Bilangann Genapnya : "+str(i))
 
 #No 9 
 def ganjil():
