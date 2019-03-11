@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 \contentsline {lstlisting}{src/chapter2/1174043\textunderscore 1.py}{10}% 
 \contentsline {lstlisting}{src/chapter2/1174043\textunderscore 2.py}{11}% 
 \contentsline {lstlisting}{src/chapter2/1174043\textunderscore 3.py}{11}% 
@@ -137,3 +139,4 @@
 \contentsline {lstlisting}{src/chapter3/1174042\textunderscore main.py}{53}% 
 \contentsline {lstlisting}{src/chapter3/1174042\textunderscore main.py}{53}% 
 \contentsline {lstlisting}{src/chapter3/1174042\textunderscore 2err.py}{53}% 
+>>>>>>> fdbb38e750f7ef855403f7e102cf39f76c0f7b01
