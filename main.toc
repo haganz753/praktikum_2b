@@ -1,13 +1,13 @@
 \contentsline {schapter}{Daftar Gambar}{xiii}% 
-\contentsline {schapter}{Daftar Tabel}{xvii}% 
-\contentsline {schapter}{Foreword}{xxxi}% 
-\contentsline {schapter}{Kata Pengantar}{xxxiii}% 
-\contentsline {schapter}{Acknowledgments}{xxxv}% 
-\contentsline {schapter}{Acronyms}{xxxvii}% 
-\contentsline {schapter}{Glossary}{xxxix}% 
-\contentsline {schapter}{List of Symbols}{xli}% 
-\contentsline {schapter}{Introduction}{xliii}% 
-\contentsline {ichapter}{Rolly Maulana Awangga, S.T., M.T.}{xliii}% 
+\contentsline {schapter}{Daftar Tabel}{xv}% 
+\contentsline {schapter}{Foreword}{xxvii}% 
+\contentsline {schapter}{Kata Pengantar}{xxix}% 
+\contentsline {schapter}{Acknowledgments}{xxxi}% 
+\contentsline {schapter}{Acronyms}{xxxiii}% 
+\contentsline {schapter}{Glossary}{xxxv}% 
+\contentsline {schapter}{List of Symbols}{xxxvii}% 
+\contentsline {schapter}{Introduction}{xxxix}% 
+\contentsline {ichapter}{Rolly Maulana Awangga, S.T., M.T.}{xxxix}% 
 \contentsline {chapter}{\numberline {1}Judul Bagian Pertama}{1}% 
 \contentsline {section}{\numberline {1.1}Irvan Rizkiansyah}{1}% 
 \contentsline {section}{\numberline {1.2}Python}{1}% 
