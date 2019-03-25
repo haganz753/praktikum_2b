@@ -315,3 +315,57 @@ Pandas (Python Data Analysis Library) adalah library open source yang digunakan 
 		\item Jelaskan fungsi-fungsi yang terdapat di library pandas
 			\lstinputlisting [firstline=72, lastline=75]{src/teoric4.py}
 	\end {enumerate}
+
+\section{Yusniar Nur Syarif Sidiq/1164089}
+\subsection{Pemahaman Teori}
+
+\begin{enumerate}
+
+\item Apa itu fungsi file csv, jelaskan sejarah dan contoh.
+	\subitem File csv merupakan jenis file khusus yang dapat kita buat dan edit di dalam Excel. File csv akan menyimpan informasi data yang dipisahkan dengan koma atau tanda titik koma, dimana artinya file csv tidak menyimpan data dalam bentuk kolom. Saat pertama kali rilis, excel menggunakan format file dalam bentuk biner yaitu BIFF sebagai format file utama. Namun setelah Microsoft merilis Ofice System 2007, Excel telah menggantikan format utamanya menjadi XML. Meskipun mendukung format XML baru, Excel masih mendukung format BIFF, tidak hanya itu excel juga telah mendukung format CSV, DBF, SYLK, DIF, dan format-format lainnya. Fungsi dari file csv itu sendiri adalah mempermudah dalam pencarian data dan pengimputan data ke dalam database sederhana. File csv mulai digunakan pada tahun 1983 akan tetapi format file csv sudah ada dari tahun 1972. Contoh file dengan format csv dapat dilihat pada figure \ref{YNCSV1}
+
+	\begin{figure}[ht]
+		\centering{\includegraphics[scale=0.5]{figures/chapter4/YN/Chapter4/YNCSV1.png}}
+		\caption{Contoh File CSV}
+		\label{YNCSV1}
+	\end{figure}
+
+\item Aplikasi - aplikasi apa saja yang bisa menciptakan file csv.
+	\subitem Untuk membuat file dengan format CSV, kita dapat menggunakan software bawaan Microfsoft Ofice yaitu Excel. Bukan hanya Microsoft Excel, kita juga dapat membuat file CSV dengan bantuan text editor. Jika kita ingin membuat file csv secara online dapat menggunakan Google Spreadshare. Apabila OS PC kita menggunakan Linux dapat menggunakan LibreOfficecalc.
+
+\item Jelaskan bagaimana cara menulis dan membaca file csv di excel atau spreadsheet.
+	\subitem Cara membuat file CSV dengan Excel
+			\begin{itemize}
+				\item Buka software Microsoft Excel
+				\item Pilih new document
+				\item Buatlah judul kolom yang ingin kita rekam
+				\item Isikan informasi - informasi pada setiap kolom
+				\item Simpan dengan menggunakan metode save as
+				\item Cari dan pilih format csv
+				\item Pilih button save untuk melakukan penyimpanan
+			\end{itemize}
+	\subitem Cara membaca file CSV dengan Excel
+			\begin{itemize}
+				\item Buka software Microsoft Excel
+				\item Lakukan perintah open file
+				\item Cari file csv yang sudah kita buat sebelumnya
+				\item Pilih button open untuk membaca file csv pada Microsoft Excel
+			\end{itemize}
+	\subitem Cara membaca file csv dari Excel
+		\lstinputlisting[firstline=1, lastline=9]{src/chapter4/1164089.py}
+	\subitem Cara membuat file csv
+		\lstinputlisting[firstline=12, lastline=16]{src/chapter4/1164089.py}
+
+\item Jelaskan sejarah library csv. 
+	\subitem Pada tahun 1972 adalah terbentuknya format file csv namun bukan hanya itu saja, pada saat itupun terbentuk juga yang namanya library pandas.Seiring dengan lahirnya bahasa pemrograman python, library mulai dibuat dan dikembangkan oleh Kevin Altis. Dengan kata lain CSV dibentuk pada tahun 1972 dan sudah satu paket baik dalam librarynya maupun format filenya. 
+
+\item Jelaskan sejarah library pandas.
+	\subitem Developer yang bernama Wes McKinney telah mengajarkan pandas pada tahun 2008 ketika ia berada di AQR Capital Management, karena kebutuhan akan alat kinerja tinggi yang fleksibel untuk melakukan analisis kuantitatif pada data keuangan. Sebelum meninggalkan AQR, dia dapat meyakinkan manajemen untuk mengizinkan membuka sumber library. Pegawai AQR lainnya yaitu Chang She, telah bergabung dengan upaya ini pada 2012 sebagai kontributor utama kedua ke library. Pada tahun 2015, pandas telah menandatangani sebagai proyek NumFocus yang disponsori secara fiskal. Pada saat itulah Library Pandas mulai berjalan dan digunakan.
+
+\item Jelaskan fungsi-fungsi yang terdapat di library csv.
+	\subitem Ada dua fungsi pada library csv, yaitu csv.reade dan csv.writer. Dimana fungsi tersebut memiliki tugas yang berbeda-beda. Untuk csv.reader bertugas sebagai membaca file csv sedangkan csv.writer bertugas membuat file csv.
+
+\item Jelaskan fungsi-fungsi yang terdapat di library pandas.
+	\subitem Untuk library pandas sama saja dengan library csv namun bedanya hanya cara penulisan source codenya saja. Untuk membaca file csv pada library pandas membutuhkan perintah pandas.read\_csv sedangkan untuk membuat file csv membutuhkan perintah pandas.write\_csv.
+
+\end{enumerate}
